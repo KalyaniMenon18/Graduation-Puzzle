@@ -18,14 +18,14 @@ Test cases:
 for 5 days: 14/29
 for 10 days: 372/773
 
-#Dynamic Programming Approach
+## **Dynamic Programming Approach**
 
 The solution uses a bottom-up approach to populate the dp table that stores the count of ways to attend classes.
 The table dp[i][j] represents the count of ways to attend classes on the ith day without having j consecutive absences (where j ranges from 0 to 4). The recurrence relationship is that dp[i - 1][0] represents the count of ways to attend classes on the previous day without any consecutive absences. Adding this count to dp[i - 1][j + 1] considers the cases where the previous day had j + 1 consecutive absences.
 
-#Time Complexity
+### **Time Complexity**
 O(m*n) where m=5(4 consecutive days +1)
 
-#Space Complexity
+### **Space Complexity**
 O(m*n) where m=5(4 consecutive days +1)
 
