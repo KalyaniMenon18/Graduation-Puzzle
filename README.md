@@ -13,6 +13,8 @@ Your task is to determine the following:
 Represent the solution in the string format as "Answer of (2) / Answer
 of (1)", don't actually divide or reduce the fraction to decimal
 
+Input is read from input.txt file
+
 Test cases:
 
 for 5 days: 14/29
