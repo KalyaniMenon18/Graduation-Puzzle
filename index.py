@@ -28,9 +28,3 @@ class Attendance:
  
     def printSolution(self):
         print("The answer is ",self.solution()," when n = ",self.n)
-
-inputs = [5, 10]
-for n in inputs:
-    obj = Attendance(n)
-    obj.printSolution()
-
